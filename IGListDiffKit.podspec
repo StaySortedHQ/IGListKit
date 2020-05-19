@@ -28,10 +28,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
+  s.watchos.deployment_target = '4.0'
 
   s.ios.frameworks = 'UIKit'
   s.tvos.frameworks = 'UIKit'
   s.osx.frameworks = 'Cocoa'
+  s.watchos.frameworks = 'UIKit'
 
   s.library = 'c++'
   s.pod_target_xcconfig = {
